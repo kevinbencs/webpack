@@ -13,12 +13,8 @@ import 'bootstrap';
 $(document).ready( () =>{
     $('.js-content').html(`It' ${getDate}`);
 
-    /*$('.js-modal').modal({
+    $('.js-modal').modal({
         show: true,
         keyboard: true
-    });*/
-});
-document.querySelector('.js-modal').modal({
-    show: true,
-    keyboard: true
+    });
 });
